@@ -1,4 +1,29 @@
 main.Main#Main
   .Main-container
-    h2 Medios
-    p Insertar las section necesarias
+    h1 Cordón Comunicacional
+    .Medios
+      section.Medios-item
+        .Medios-video
+          iframe(src="https://www.youtube.com/embed/Pd3TC8tjoQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .Medios-text
+          p Texto 1
+          p Texto 2
+      section.Medios-item
+        .Medios-video
+          iframe(src="https://www.youtube.com/embed/NZ8wKX-buDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .Medios-videos
+          iframe(src="https://www.youtube.com/embed/NZ8wKX-buDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(src="https://www.youtube.com/embed/NZ8wKX-buDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(src="https://www.youtube.com/embed/NZ8wKX-buDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      section.Medios-item
+        .Medios-textos
+          .Medios-textos-item
+            h2 Texto 1
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla at deserunt natus, aspernatur exercitationem cumque aliquid excepturi eaque sed harum earum pariatur iste cum corrupti doloremque beatae repudiandae voluptatum labore
+          .Medios-textos-item
+            h2 Texto 2
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla at deserunt natus, aspernatur exercitationem cumque aliquid excepturi eaque sed harum earum pariatur iste cum corrupti doloremque beatae repudiandae voluptatum labore
+        .Medios-texto
+          iframe(src="documents/el-retorno.pdf")
+      section.Medios-item
+        include ../elements/masonry

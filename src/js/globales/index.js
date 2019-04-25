@@ -1,6 +1,8 @@
-import {toggleNav, animaciones} from '../dev/nav';
-import Slider from '../dev/slider';
+import {toggleNav} from '../dev/nav';
+import Masonry from '../dev/masonry'
+// import Slider from '../dev/slider';
 
 toggleNav()
-animaciones()
-Slider()
+Masonry()
+// animaciones()
+// Slider()

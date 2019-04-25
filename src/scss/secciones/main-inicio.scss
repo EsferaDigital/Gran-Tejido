@@ -1,2 +1,6 @@
-
-
+.Inicio-proyectos{
+  border: 2px solid green;
+  &-item{
+    border: 2px solid blue;
+  }
+}
