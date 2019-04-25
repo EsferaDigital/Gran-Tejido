@@ -1,3 +1,19 @@
 header.Header
-  .logo
-    img(src="img/logo.png", alt="Gran Tejido")
+  section.Header-container
+    div.Logo
+      a(href=link.inicio)
+        img(src="img/logo.png", alt="Logo-Seming")
+    button(type="button" class="Panel-btn hamburger hamburger--elastic")
+      span.hamburger-box
+        span.hamburger-inner
+    section.Panel
+      nav.Menu
+        ul
+          li
+            a(href=link.inicio) Inicio
+          li
+            a(href=link.medios) Medios
+          li
+            a(href=link.redes) Redes
+          li
+            a(href=link.territorio) Territorio
